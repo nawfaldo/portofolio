@@ -7,6 +7,8 @@ import Header from "../../components/Header";
 import Image from "next/image";
 import Link from "next/link";
 
+import thumbnail from "../../assets/images/lireddit.png";
+
 import { XIcon } from "@heroicons/react/solid";
 import Footer from "../../components/Footer";
 
@@ -16,7 +18,7 @@ const project = () => {
 
   const project = getProject(slug);
 
-  const [show, setShow] = useState(null);
+  const [show, setShow] = useState(thumbnail);
 
   return (
     <div className="">
