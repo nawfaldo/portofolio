@@ -15,6 +15,13 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "utils/AnimatedText.js",
+    "pages/project/[slug].jsx",
+    "utils/project.js"
+  ],
   "exclude": ["node_modules"]
 }
