@@ -18,7 +18,7 @@ const project = () => {
 
   const project = getProject(slug);
 
-  let title;
+  let title = thumbnail;
 
   project.map((val) => {
     title = val.images[0];
