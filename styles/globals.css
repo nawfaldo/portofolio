@@ -21,4 +21,11 @@ a {
 
 .hello > h1 {
   text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  font-size: 300px;
+}
+
+@media (max-width: 770px) {
+  .hello > h1 {
+    font-size: 200px;
+  }
 }
