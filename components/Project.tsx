@@ -46,8 +46,8 @@ const Project = () => {
             <button
               className={
                 title === index
-                  ? 'bg-[#A0D995] px-7 py-3 font-Poppins text-white rounded-md border-b-4 border-[#6CC4A1] w-max mr-5'
-                  : 'px-7 py-3 font-Comfortaa border-dashed border-2 rounded-md hover:border-black w-max mr-5'
+                  ? 'bg-[#A0D995] px-5 md:px-7 py-3 font-Poppins text-white rounded-md border-b-4 border-[#6CC4A1] w-max mr-5 text-sm md:text-base'
+                  : 'px-5 md:px-7 py-3 font-Comfortaa border-dashed border-2 rounded-md hover:border-black w-max mr-5 text-sm md:text-base'
               }
               onClick={() => setIndex(title)}
             >

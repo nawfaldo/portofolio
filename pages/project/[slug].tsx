@@ -95,7 +95,7 @@ const project = () => {
             {fitures.map((i: any) => (
               <div className='space-y-3'>
                 <h3 className='font-Poppins text-2xl'>{i.title}</h3>
-                <p className='font-Comfortaa text-lg mr-[100px]'>
+                <p className='font-Comfortaa text-lg md:mr-[100px]'>
                   {i.description}
                 </p>
               </div>
