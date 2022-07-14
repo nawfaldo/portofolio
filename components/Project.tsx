@@ -9,7 +9,7 @@ import { ArrowNarrowRightIcon } from '@heroicons/react/solid';
 
 const Project = () => {
   const [index, setIndex] = useState('React');
-  const titles = ['React', 'Laravel', 'Node JS', 'iOS', 'Android'];
+  const titles = ['React', 'Laravel', 'Node JS'];
 
   return (
     <div className='px-[30px] md:px-[70px] lg:px-[100px] mb-[100px] flex flex-col xl:flex-row xl:space-x-[100px] xl:space-y-0 space-y-8'>
@@ -55,7 +55,7 @@ const Project = () => {
             </button>
           ))}
         </div>
-        <div className=''>
+        <div className='space-y-10'>
           {projects
             .filter(({ type }) => type == index)
             .map((project) => (

@@ -20,8 +20,8 @@
     "**/*.ts",
     "**/*.tsx",
     "utils/AnimatedText.js",
-    "pages/project/[slug].jsx",
-    "utils/project.js"
+    "pages/project/[slug].tsx",
+    "utils/project.ts"
   ],
   "exclude": ["node_modules"]
 }
