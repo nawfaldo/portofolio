@@ -107,16 +107,16 @@ const Contact = () => {
         </div>
         <div className='space-y-5'>
           <h1 className='font-Oswald text-white text-6xl'>CV</h1>
-          <div className='flex items-start space-x-5'>
+          <div className='flex items-start flex-wrap'>
             <button
-              className='relative h-[200px] w-[150px] drop-shadow-md hover:drop-shadow-xl'
+              className='relative h-[250px] w-[135px] drop-shadow-md hover:drop-shadow-xl mr-5'
               onClick={() => setShowModal(true)}
             >
               <Image
                 src={cv}
                 layout='fill'
                 objectFit='cover'
-                className='rounded-xl'
+                className='rounded-md '
               />
             </button>
             <div className='space-y-3'>
@@ -144,10 +144,15 @@ const Contact = () => {
                 </div>
                 <hr />
                 <div
-                  className='relative h-[700px] w-[550px] p-10'
+                  className='relative h-[370px] w-[200px] md:h-[700px] md:w-[400px] p-10'
                   onClick={() => setShowModal(true)}
                 >
-                  <Image src={cv} layout='fill' className='rounded-xl' />
+                  <Image
+                    src={cv}
+                    layout='fill'
+                    objectFit='cover'
+                    className='rounded-xl'
+                  />
                 </div>
               </div>
             </div>
