@@ -90,7 +90,7 @@ export const projects = [
   },
   {
     id: 3,
-    type: 'Node JS',
+    type: 'Node',
     title: 'URL Shortener',
     slug: 'url-shortener',
     description: 'Make long URL shorter',
