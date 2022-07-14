@@ -24,7 +24,7 @@ const Contact = () => {
           <div className='space-y-5'>
             <h1 className='font-Oswald text-white text-6xl'>CONTACT</h1>
             <div className='space-y-3'>
-              <div className='flex items-center flex-wrap space-y-3 w-max-[600px]'>
+              <div className='flex items-center flex-wrap space-y-3 w-max-[600px] mr-10'>
                 <div className='bg-[#A0D995] shadow-md hover:shadow-xl rounded-full px-5 py-2 flex items-center space-x-3 mr-5'>
                   <MailIcon className='h-7 text-white' />
                   <p className='font-Comfortaa text-white text-lg'>
