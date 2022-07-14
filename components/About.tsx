@@ -31,7 +31,7 @@ const About = () => {
       className='bg-[#A0D995] px-[30px] md:px-[70px] lg:px-[100px] pb-10'
     >
       <motion.div
-        className='h-[210px] md:h-[450px]'
+        className='h-[190px] md:h-[450px]'
         initial='hidden'
         animate={replay ? 'visible' : 'hidden'}
         variants={container}
@@ -43,13 +43,13 @@ const About = () => {
         </div>
       </motion.div>
       <div className='space-y-1'>
-        <p className='font-medium text-2xl md:text-3xl text-white font-Comfortaa'>
+        <p className='font-medium text-xl md:text-3xl text-white font-Comfortaa'>
           My name is Aldo
         </p>
-        <p className='font-medium text-2xl md:text-3xl text-white font-Comfortaa'>
+        <p className='font-medium text-xl md:text-3xl text-white font-Comfortaa'>
           A fullstack web developer
         </p>
-        <p className='font-medium text-xl md:text-2xl text-white font-Comfortaa'>
+        <p className='font-medium text-lg md:text-2xl text-white font-Comfortaa'>
           &lt;/&gt;
         </p>
       </div>

@@ -21,7 +21,7 @@ const project = () => {
     <div className=''>
       <Header />
 
-      <div className='mt-[50px] mx-[100px] space-y-7'>
+      <div className='mt-[50px] px-[30px] md:px-[70px] lg:px-[100px] space-y-7'>
         <div className='space-y-2'>
           <h1 className='font-Poppins text-5xl'>{title}</h1>
           <p className='font-Comfortaa text-xl'>{description}</p>
@@ -49,21 +49,21 @@ const project = () => {
         <img
           src={show == null ? images[0] : show}
           alt='thumbnail'
-          className='w-[1000px] h-[500px] rounded-xl shadow-md'
+          className='lg:w-[1000px] lg:h-[500px] md:w-[600px] md:h-[300px] rounded-xl shadow-md'
         />
 
-        <div className='flex items-center space-x-7'>
+        <div className='flex items-center space-y-5 flex-wrap'>
           {images.map((i: any) => (
-            <div className='bg-gray-200 rounded'>
+            <div className='bg-gray-200 rounded mt-5 mr-5'>
               {i == show || (show == null && i == images[0]) ? (
-                <div className='w-[150px] h-[75px] flex'>
+                <div className='w-[100px] h-[50px] flex'>
                   <svg
                     version='1.1'
                     id='Layer_1'
                     x='0px'
                     y='0px'
-                    width='30px'
-                    height='30px'
+                    width='20px'
+                    height='20px'
                     viewBox='0 0 472.615 472.615'
                     fill='white'
                     className='mx-auto my-auto'
@@ -79,7 +79,7 @@ const project = () => {
                 <img
                   src={i}
                   alt=''
-                  className='w-[150px] h-[75px] rounded cursor-pointer shadow-md hover:shadow-xl'
+                  className='w-[100px] h-[50px] rounded cursor-pointer shadow-md hover:shadow-xl'
                   onClick={() => setShow(i)}
                 />
               )}

@@ -26,6 +26,6 @@ a {
 
 @media (max-width: 770px) {
   .hello > h1 {
-    font-size: 150px;
+    font-size: 120px;
   }
 }

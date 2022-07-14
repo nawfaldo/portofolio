@@ -59,7 +59,7 @@ const Project = () => {
           {projects
             .filter(({ type }) => type == index)
             .map((project) => (
-              <div className='flex items-start space-x-5'>
+              <div className='flex flex-col md:flex-row items-start space-y-5 md:space-y-0 md:space-x-5'>
                 <div className='relative h-[150px] w-[300px] shadow-xl rounded-lg'>
                   <Image
                     src={project.thumbnail}
@@ -94,7 +94,7 @@ const Project = () => {
                       </svg>
                     </button>
                   </div>
-                  <hr className='mt-auto' />
+                  <hr className='mt-auto w-[300px]' />
                 </div>
               </div>
             ))}

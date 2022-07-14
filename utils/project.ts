@@ -13,7 +13,7 @@ export const projects = [
     type: 'React',
     title: 'LiReddit',
     slug: 'lireddit',
-    description: 'A clone of social media Reddit',
+    description: 'A clone of Reddit',
     thumbnail: 'https://i.ibb.co/bsGkHjk/lireddit1.png',
     images: [
       'https://i.ibb.co/bsGkHjk/lireddit1.png',
