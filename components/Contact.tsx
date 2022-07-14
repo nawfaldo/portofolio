@@ -107,7 +107,7 @@ const Contact = () => {
         </div>
         <div className='space-y-5'>
           <h1 className='font-Oswald text-white text-6xl'>CV</h1>
-          <div className='flex items-start flex-wrap'>
+          <div className='flex items-start flex-wrap space-y-5 md:space-y-0'>
             <button
               className='relative h-[250px] w-[135px] drop-shadow-md hover:drop-shadow-xl mr-5'
               onClick={() => setShowModal(true)}
@@ -144,7 +144,7 @@ const Contact = () => {
                 </div>
                 <hr />
                 <div
-                  className='relative h-[370px] w-[200px] md:h-[700px] md:w-[400px] p-10'
+                  className='relative h-[450px] w-[250px] md:h-[700px] md:w-[400px] p-10'
                   onClick={() => setShowModal(true)}
                 >
                   <Image
